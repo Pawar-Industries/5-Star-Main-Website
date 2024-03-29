@@ -206,14 +206,16 @@ hr {
 }
 
 .to-top {
-  color: #1e1e1e; /* White color */
+  color: #1e1e1e;
+  /* White color */
   background-color: transparent;
   padding: 5px;
   display: inline-block;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  border: 2px solid #000000; /* White border */
+  border: 2px solid #000000;
+  /* White border */
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.3s ease-out;
@@ -221,7 +223,8 @@ hr {
 
 .to-top:before {
   content: '▲';
-  font-size: 24px; /* Increase font size for larger icon */
+  font-size: 24px;
+  /* Increase font size for larger icon */
   display: block;
   width: 30px;
   height: 30px;
@@ -232,8 +235,10 @@ hr {
 }
 
 .to-top:hover {
-  color: #008DDA; /* #008DDA color on hover */
-  border-color: #008DDA; /* #008DDA border color on hover */
+  color: #008DDA;
+  /* #008DDA color on hover */
+  border-color: #008DDA;
+  /* #008DDA border color on hover */
 }
 
 .to-top:hover:before {
@@ -3799,12 +3804,12 @@ hr {
   font-size: large;
 }
 
-.form-contact input{
+.form-contact input {
   color: #008DDA;
   font-size: large;
 }
 
-.form-contact input:focus{
+.form-contact input:focus {
   color: #008DDA;
   font-size: large;
 }
@@ -4652,11 +4657,6 @@ del {
   border: 1px solid #f1f1f1
 }
 
-.primary-checkbox input:checked+label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
-  border: none
-}
-
 .confirm-checkbox {
   width: 16px;
   height: 16px;
@@ -4688,11 +4688,6 @@ del {
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid #f1f1f1
-}
-
-.confirm-checkbox input:checked+label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
-  border: none
 }
 
 .disabled-checkbox {
@@ -4733,11 +4728,6 @@ del {
   z-index: 3
 }
 
-.disabled-checkbox input:checked+label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
-  border: none
-}
-
 .primary-radio {
   width: 16px;
   height: 16px;
@@ -4771,11 +4761,6 @@ del {
   border: 1px solid #f1f1f1
 }
 
-.primary-radio input:checked+label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
-  border: none
-}
-
 .confirm-radio {
   width: 16px;
   height: 16px;
@@ -4807,11 +4792,6 @@ del {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #f1f1f1
-}
-
-.confirm-radio input:checked+label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
-  border: none
 }
 
 .disabled-radio {
@@ -4850,11 +4830,6 @@ del {
 .disabled-radio input:disabled {
   cursor: not-allowed;
   z-index: 3
-}
-
-.disabled-radio input:checked+label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
-  border: none
 }
 
 .default-select {
@@ -5098,42 +5073,6 @@ del {
   min-height: 65vh;
 }
 
-.slower {
-  transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(-10vh);
-}
-
-.slower1 {
-  transform: rotate(90deg) translateZ(-.25px) scale(1.05) translateX(0%) translateY(8vh);
-}
-
-.slower2 {
-  transform: rotate(90deg) translateZ(-.3px) scale(1.3) translateX(0%) translateY(2vh);
-}
-
-.slower-down {
-  transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%) translateY(16vh);
-}
-
-.faster {
-  transform: rotate(90deg) translateZ(.15px) scale(0.8) translateX(0%) translateY(14vh);
-}
-
-.faster1 {
-  transform: rotate(90deg) translateZ(.05px) scale(0.8) translateX(0%) translateY(10vh);
-}
-
-.fastest {
-  transform: rotate(90deg) translateZ(.22px) scale(0.7) translateX(-10vh) translateY(-15vh);
-}
-
-.vertical {
-  transform: rotate(90deg) translateZ(-.15px) scale(1.15) translateX(0%) translateY(0%);
-}
-
-.last {
-  transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(25vh) translateY(-8vh);
-}
-
 .img-wrapper a {
   overflow: hidden;
   display: block;
@@ -5155,11 +5094,11 @@ a:hover img {
 
 .title-caption {
   background: rgba(0, 0, 0, 0.03);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.6px);
--webkit-backdrop-filter: blur(4.6px);
-border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   padding: 10px;
 }
 
@@ -5203,16 +5142,21 @@ p {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
-  text-align: left; /* Align text to the left */
+  text-align: left;
+  /* Align text to the left */
   position: relative;
   transition: all 0.2s ease-in-out;
-  width: 90%; /* Set the width to 90% of the viewport */
-  max-width: 800px; /* Set maximum width */
-  margin: 0 auto; /* Center horizontally */
+  width: 90%;
+  /* Set the width to 90% of the viewport */
+  max-width: 800px;
+  /* Set maximum width */
+  margin: 0 auto;
+  /* Center horizontally */
 }
 
 .modal-UI .modal-body {
-  padding: 1em; /* Adjust padding */
+  padding: 1em;
+  /* Adjust padding */
 }
 
 .modal-UI .modal-footer {
@@ -5232,16 +5176,21 @@ p {
   font-weight: 500;
   color: #fff;
   opacity: 0.7;
-  font-size: 1.2rem; /* Reduce font size */
+  font-size: 1.2rem;
+  /* Reduce font size */
   margin-top: 0;
-  margin-bottom: 10px; /* Reduce margin */
+  margin-bottom: 10px;
+  /* Reduce margin */
 }
 
 .modal-UI .form-control {
   background: rgba(255, 255, 255, 0.1);
-  width: calc(100% - 40px); /* Adjust width */
-  padding: 0.8em; /* Adjust padding */
-  margin-bottom: 1em; /* Adjust margin */
+  width: calc(100% - 40px);
+  /* Adjust width */
+  padding: 0.8em;
+  /* Adjust padding */
+  margin-bottom: 1em;
+  /* Adjust margin */
   border: none;
   border-radius: 5px;
   color: #fff;
@@ -5260,7 +5209,7 @@ p {
   padding: 10px 20px;
   margin-right: 10px;
   border-radius: 5px;
-  background-color: #007bff; /* Button background color */
+  background-color: #007bff;
   border: none;
   color: #fff;
   font-weight: bold;
@@ -5274,7 +5223,8 @@ p {
 .larger-image {
   max-width: 100%;
   height: auto;
-  width: 100%; /* Adjust this value to increase or decrease the image size */
+  width: 100%;
+  /* Adjust this value to increase or decrease the image size */
 }
 
 
@@ -5314,16 +5264,117 @@ p {
 @keyframes animate {
 
   0% {
-      opacity: 0;
-      transform: rotate(45deg) translate(-20px, -20px);
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
   }
 
   50% {
-      opacity: 1;
+    opacity: 1;
   }
 
   100% {
-      opacity: 0;
-      transform: rotate(45deg) translate(20px, 20px);
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+.navbar {
+  height: auto;
+}
+/* Navbar Transparent */
+.navbar-transparent {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px); /* Optional: Add a backdrop filter for a blurred effect */
+}
+
+/* Navbar with Glass Effect */
+.navbar.navbar-glass {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(40, 12, 111, 0.1);
+  backdrop-filter: blur(9.7px);
+  -webkit-backdrop-filter: blur(9.7px);
+  border: 1px solid rgba(0, 0, 0, 0.58);
+}
+
+/* Navbar Brand on Hover */
+.navbar-brand:hover img {
+  transform: scale(1.05); /* Adjust scale factor as needed */
+}
+
+/* Navbar Items */
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+/* Navbar Items on Hover */
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Adjust hover color as needed */
+}
+
+/* Toggler Icon Color */
+.navbar-toggler-icon {
+  color: #333; /* Adjust color as needed */
+}
+
+/* Toggle Button on Hover */
+.navbar-toggler:hover {
+  background-color: transparent;
+}
+
+/* Toggle Button on Focus */
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Contact Button on Hover */
+.header-btn2:hover {
+  background-color: #0056b3; /* Adjust hover background color as needed */
+  color: #fff; /* Adjust hover color as needed */
+}
+
+/* Contact Button Icon */
+.header-btn2 ion-icon {
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    max-height: 80px; /* Set maximum height for tablets and larger devices */
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) {
+  /* Center Navbar Items */
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Navbar Brand */
+  .navbar-brand {
+    margin-right: auto;
+  }
+
+  /* Contact Info */
+  .contact-info {
+    display: none;
+  }
+
+  /* Navbar with Glass Effect for Mobile */
+  .navbar.navbar-glass {
+    background: rgba(0, 0, 0, 0.1); /* Adjust glass background opacity */
+    backdrop-filter: blur(5px); /* Adjust blur effect for glass background */
+    -webkit-backdrop-filter: blur(5px);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .col-md-6 img {
+      max-width: 100%; /* Ensure images are not wider than their container */
+      height: auto; /* Maintain aspect ratio */
   }
 }

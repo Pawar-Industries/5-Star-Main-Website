@@ -3,13 +3,18 @@
   
     
 /* 1. Proloder */
-    $(window).on('load', function () {
-      $('#preloader-active').delay(450).fadeOut('slow');
-      $('body').delay(450).css({
-        'overflow': 'visible'
-      });
-    });
-
+$(window).scroll(function() {
+  var navbar = $('.navbar');
+  if ($(window).scrollTop() > 50) { // Adjust as needed
+      if ($(window).width() <= 991) { // Tablet or device
+          navbar.removeClass('navbar-transparent').addClass('navbar-glass');
+      } else {
+          navbar.removeClass('navbar-transparent').addClass('navbar-glass');
+      }
+  } else {
+      navbar.removeClass('navbar-glass').addClass('navbar-transparent');
+  }
+});
 
 /* 2. sticky And Scroll UP */
     $(window).on('scroll', function () {
