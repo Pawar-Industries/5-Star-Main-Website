@@ -10,86 +10,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script nonce="ea3708bb-ed5b-4198-980c-abd1a3443b7e">
-        try {
-            (function (w, d) {
-                !function (ct, cu, cv, cw) {
-                    ct[cv] = ct[cv] || {};
-                    ct[cv].executed = [];
-                    ct.zaraz = {
-                        deferred: [],
-                        listeners: []
-                    };
-                    ct.zaraz.q = [];
-                    ct.zaraz._f = function (cx) {
-                        return async function () {
-                            var cy = Array.prototype.slice.call(arguments);
-                            ct.zaraz.q.push({
-                                m: cx,
-                                a: cy
-                            })
-                        }
-                    };
-                    for (const cz of ["track", "set", "debug"])
-                        ct.zaraz[cz] = ct.zaraz._f(cz);
-                    ct.zaraz.init = () => {
-                        var cA = cu.getElementsByTagName(cw)[0],
-                            cB = cu.createElement(cw),
-                            cC = cu.getElementsByTagName("title")[0];
-                        cC && (ct[cv].t = cu.getElementsByTagName("title")[0].text);
-                        ct[cv].x = Math.random();
-                        ct[cv].w = ct.screen.width;
-                        ct[cv].h = ct.screen.height;
-                        ct[cv].j = ct.innerHeight;
-                        ct[cv].e = ct.innerWidth;
-                        ct[cv].l = ct.location.href;
-                        ct[cv].r = cu.referrer;
-                        ct[cv].k = ct.screen.colorDepth;
-                        ct[cv].n = cu.characterSet;
-                        ct[cv].o = (new Date).getTimezoneOffset();
-                        if (ct.dataLayer)
-                            for (const cG of Object.entries(Object.entries(dataLayer).reduce(((cH, cI) => ({
-                                ...cH[1],
-                                ...cI[1]
-                            })), {})))
-                                zaraz.set(cG[0], cG[1], {
-                                    scope: "page"
-                                });
-                        ct[cv].q = [];
-                        for (; ct.zaraz.q.length;) {
-                            const cJ = ct.zaraz.q.shift();
-                            ct[cv].q.push(cJ)
-                        }
-                        cB.defer = !0;
-                        for (const cK of [localStorage, sessionStorage])
-                            Object.keys(cK || {}).filter((cM => cM.startsWith("_zaraz_"))).forEach((cL => {
-                                try {
-                                    ct[cv]["z_" + cL.slice(7)] = JSON.parse(cK.getItem(cL))
-                                } catch {
-                                    ct[cv]["z_" + cL.slice(7)] = cK.getItem(cL)
-                                }
-                            }));
-                        cB.referrerPolicy = "origin";
-                        cB.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(ct[cv])));
-                        cA.parentNode.insertBefore(cB, cA)
-                    };
-                    ["complete", "interactive"].includes(cu.readyState) ? zaraz.init() : ct.addEventListener("DOMContentLoaded", zaraz.init)
-                }(w, d, "zarazData", "script");
-            })(window, document)
-        } catch (e) {
-            throw fetch("/cdn-cgi/zaraz/t"), e;
-        }
-        ;
-    </script>
 </head>
 
 <body>
@@ -144,7 +71,7 @@
                                 <span>Digital Marketing Expert</span>
                                 <h1>5 Star Business Association</h1> <!-- Changed h2 to h1 -->
                                 <p>Bringing Suppliers and Businesses Together for Increased Profits</p>
-                                <a href="services.html" class="btn_0 hero-btn">Our Partners</a>
+                                <a href="#" class="btn_0 hero-btn">Our Partners</a>
                             </div>
                         </div>
                         <div class="col-md-6 position-relative"> <!-- Adjusted column spacing -->
@@ -216,7 +143,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat mb-50">
                             <h5>
-                                <a href="services.html">Cost Savings</a>
+                                <a href="#">Cost Savings</a>
                             </h5>
                             <div class="cat-icon">
                                 <img src="assets/img/icon/services1.svg" alt>
@@ -231,7 +158,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat mb-50">
                             <h5>
-                                <a href="services.html">Top Brands</a>
+                                <a href="#">Top Brands</a>
                             </h5>
                             <div class="cat-icon">
                                 <img src="assets/img/icon/services2.svg" alt>
@@ -245,7 +172,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat mb-50">
                             <h5>
-                                <a href="services.html">Promotions</a>
+                                <a href="#">Promotions</a>
                             </h5>
                             <div class="cat-icon">
                                 <img src="assets/img/icon/services3.svg" alt>
@@ -259,7 +186,7 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat mb-50">
                             <h5>
-                                <a href="services.html">Partnering</a>
+                                <a href="#">Partnering</a>
                             </h5>
                             <div class="cat-icon">
                                 <img src="assets/img/icon/services5.png" alt>
@@ -355,8 +282,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" novalidate="novalidate" name="contact-us-form"
-                            action="https://formbold.com/s/9xder" method="POST">
+                        <form class="form-contact contact_form" id="frmContact" method="post" action="contact.php"
+                        enctype="multipart/form-data" onsubmit="return validateContactForm()">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -384,7 +311,17 @@
                                 </div>
                             </div>
                             <div class="form-group mt-3">
-                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                                <input type="submit" name="send" class="btn-submit button button-contactForm boxed-btn" value="Send" />
+                                <!-- <button type="submit" class="button button-contactForm boxed-btn">Send</button> -->
+                                <div id="statusMessage"> 
+                                    <?php
+                                    if (! empty($message)) {
+                                        ?>
+                                        <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+                                    <?php
+                                    }
+                                    ?>
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -503,19 +440,16 @@
                                     <h4>Navigation</h4>
                                     <ul>
                                         <li>
-                                            <a href="#">Home</a>
+                                            <a href="index.html">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <a href="#about">About</a>
                                         </li>
                                         <li>
-                                            <a href="#">Services</a>
+                                            <a href="#services">Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">Blog</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Contact</a>
+                                            <a href="#contact">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -575,8 +509,6 @@
                                 <div class="footer-copy-right text-center">
                                     <p>
                                         &copy; 2023 -
-                                        <script data-cfasync="false"
-                                            src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                                         <script>
                                             document.write(new Date().getFullYear());
                                         </script>
@@ -598,11 +530,10 @@
     </div>
 
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/jquery.slicknav.min.js"></script>
 
@@ -614,7 +545,6 @@
 
     <script src="./assets/js/jquery.form.js"></script>
     <script src="./assets/js/jquery.validate.min.js"></script>
-    <script src="./assets/js/mail-script.js"></script>
     <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
 
     <script src="./assets/js/plugins.js"></script>
@@ -623,6 +553,46 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+    <script>
+        function validateContactForm() {
+	var valid = true;
+
+	$(".info").html("");
+	$(".input-field").css('border', '#e0dfdf 1px solid');
+	var name = $("#name").val();
+	var email = $("#email").val();
+	var subject = $("#subject").val();
+	var content = $("#content").val();
+
+	if (name == "") {
+		$("#name").html("Required.");
+		$("#name").css('border', '#e66262 1px solid');
+		valid = false;
+	}
+	if (email == "") {
+		$("#email").html("Required.");
+		$("#email").css('border', '#e66262 1px solid');
+		valid = false;
+	}
+	if (!email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+		$("#email").html("Invalid Email Address.");
+		$("#email").css('border', '#e66262 1px solid');
+		valid = false;
+	}
+
+	if (subject == "") {
+		$("#subject").html("Required.");
+		$("#subject").css('border', '#e66262 1px solid');
+		valid = false;
+	}
+	if (message == "") {
+		$("#message").html("Required.");
+		$("#message").css('border', '#e66262 1px solid');
+		valid = false;
+	}
+	return valid;
+}
+    </script>
 </body>
 
 </html>
