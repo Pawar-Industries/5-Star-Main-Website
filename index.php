@@ -50,9 +50,9 @@
                     </ul>
                 </div>
                 <div class="contact-info d-none d-lg-flex align-items-center">
-                    <a href="tel:+18887407370" class="header-btn2 me-3">
+                    <a href="tel:+12488350047" class="header-btn2 me-3">
                         <ion-icon name="call-outline"></ion-icon>
-                        <span>+1 (888)-740-7370</span>
+                        <span>+1 (248)-835-0047</span>
                     </a>
                     <a href="#contact" class="btn_0 hero-btn">Let's Talk</a>
                 </div>
@@ -68,10 +68,9 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-6">
                             <div class="hero-caption">
-                                <span>Digital Marketing Expert</span>
                                 <h1>5 Star Business Association</h1> <!-- Changed h2 to h1 -->
                                 <p>Bringing Suppliers and Businesses Together for Increased Profits</p>
-                                <a href="#" class="btn_0 hero-btn">Our Partners</a>
+                                <a href="5-Star-Deals-05-20-2024.pdf" class="btn_0 hero-btn" target="_blank">Click for Weekly Flyer</a>
                             </div>
                         </div>
                         <div class="col-md-6 position-relative"> <!-- Adjusted column spacing -->
@@ -139,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat mb-50">
                             <h5>
@@ -166,20 +165,6 @@
                             <div class="cat-cap">
                                 <p>Our corporate partners are some of the most common brands in the business. As a
                                     member you can enjoy discounts and promotions from all our popular brands.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
-                            <h5>
-                                <a href="#">Promotions</a>
-                            </h5>
-                            <div class="cat-icon">
-                                <img src="assets/img/icon/services3.svg" alt>
-                            </div>
-                            <div class="cat-cap">
-                                <p>Not only do our members enjoy discounts, but our corporate partners offer monthly
-                                    sales incentives and bulk discounts, which we pass on to you.</p>
                             </div>
                         </div>
                     </div>
@@ -217,8 +202,7 @@
                                 <div class="title-caption">
                                     <h1>About Us</h1>
                                     <p>We build effective strategies to help you reach customers and prospects across
-                                        the
-                                        entire web.</p>
+                                        the entire web.</p>
                                 </div>
                             </div>
                         </div>
@@ -243,8 +227,7 @@
                                 <p>5 Star Business Association was founded for the purpose of bringing suppliers
                                     (“partners”) and member businesses ("members") together for mutual gain. We
                                     negotiate special pricing with our partners for products our members frequently buy.
-                                    We make those savings available to our members for a small monthly membership fee.
-                                    This in turn helps our partners widen their customer base and increase sales.</p>
+                                    We make those savings available to our members, this in turn helps our partners widen their customer base and increase sales.</p>
                                 <h2><br> Background</h2>
                                 <p>Our parent company, 5 Star Business Solutions, has been serving the restaurant and
                                     retail industry for years with point-of-sale and credit card processing solutions.
@@ -282,15 +265,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" id="frmContact" method="post" action="contact.php"
+                        <form class="form-contact contact_form" id="frmContact" method="post" action="https://script.google.com/macros/s/AKfycbzHtHegk_89uZ4oQ2txIkGbpecm3vgnj7zghSci8JR_EVO58KH_4i1PlqPE0HSdav7XtQ/exec"
                         enctype="multipart/form-data" onsubmit="return validateContactForm()">
                             <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control w-100" name="message" id="message" cols="30"
-                                            rows="9" placeholder="Enter Message"></textarea>
-                                    </div>
-                                </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <input class="form-control valid" name="name" id="name" type="text"
@@ -307,6 +284,12 @@
                                     <div class="form-group">
                                         <input class="form-control" name="subject" id="subject" type="text"
                                             placeholder="Enter Subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30"
+                                            rows="9" placeholder="Enter Message"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -336,7 +319,7 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><ion-icon name="call-outline"></ion-icon></span>
                             <div class="media-body">
-                                <h3><a href="tel:+18887407370"></a> +1 (888)-740-7370</h3>
+                                <h3><a href="tel:+12488350047"></a>+1 (248)-835-0047</h3>
                                 <p>Mon to Fri 9 AM to 6 PM</p>
                             </div>
                         </div>
@@ -360,7 +343,7 @@
                         <h1 class="modal-title fs-5" id="staticBackdropLabel">Become a member</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <form action="https://formbold.com/s/9kY5z" method="POST">
+                    <form action="https://script.google.com/macros/s/AKfycbxE9EgHIe5sy9nAL9Pb6g8XRgV-jhRhXpxSjMNNnpGJc5HCzUl9EyYOkh1qLgxIfVDn4g/exec" method="POST">
                         <div class="modal-body">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name</label>

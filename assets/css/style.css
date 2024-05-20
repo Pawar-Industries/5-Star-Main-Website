@@ -5364,3 +5364,10 @@ p {
       height: auto; /* Maintain aspect ratio */
   }
 }
+
+@media (max-width: 575.98px) {
+  .landing-header {
+      padding: 0;
+      margin: 200px 30px 200px 30px;
+  }
+}
