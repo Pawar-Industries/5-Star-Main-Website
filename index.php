@@ -5,8 +5,23 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>5 Star Business Association - A Place for Members and Partners to Benefit</title>
-    <meta name="description" content>
+    <meta name="description" content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
+    <meta name="keywords" content="5 Star Business Association, food suppliers, restaurants, business networking, increased profits, membership, partners, collaboration, food industry, restaurant suppliers">
+    <meta name="author" content="Rose Juncaj">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="5 Star Business Association - A Place for Members and Partners to Benefit">
+    <meta property="og:description" content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
+    <meta property="og:image" content="assets/img/icon/favicon.png">
+    <meta property="og:url" content="https://www.5starba.com">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="5 Star Business Association - A Place for Members and Partners to Benefit">
+    <meta name="twitter:description" content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
+    <meta name="twitter:image" content="assets/img/icon/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +32,32 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "5 Star Business Association",
+      "url": "https://www.5starba.com",
+      "logo": "https://www.5starba.com/assets/img/icon/favicon.png",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=100095438299191",
+        "https://www.linkedin.com/company/5-star-business-association/",
+        "https://www.instagram.com/5starbusinessassociation/"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 (248) 835 0047",
+        "contactType": "Customer Service"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Rose Juncaj",
+        "jobTitle": "President",
+        "sameAs": "https://www.5starba.com/#about"
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -70,7 +111,7 @@
                             <div class="hero-caption">
                                 <h1>5 Star Business Association</h1> <!-- Changed h2 to h1 -->
                                 <p>Bringing Suppliers and Businesses Together for Increased Profits</p>
-                                <a href="5-Star-Deals-05-20-2024.pdf" class="btn_0 hero-btn" target="_blank">Click for Weekly Flyer</a>
+                                <a href="5-Star-Deals-06-03-2024.pdf" class="btn_0 hero-btn" target="_blank">Click for Weekly Flyer</a>
                             </div>
                         </div>
                         <div class="col-md-6 position-relative"> <!-- Adjusted column spacing -->
@@ -407,7 +448,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.linkedin.com/company/96582795/admin/feed/posts/"
+                                                <a href="https://www.linkedin.com/company/5starba/"
                                                     target="_blank">
                                                     <ion-icon name="logo-linkedin"></ion-icon>
                                                 </a>
