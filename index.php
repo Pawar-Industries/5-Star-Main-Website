@@ -5,13 +5,16 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>5 Star Business Association - A Place for Members and Partners to Benefit</title>
-    <meta name="description" content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
-    <meta name="keywords" content="5 Star Business Association, food suppliers, restaurants, business networking, increased profits, membership, partners, collaboration, food industry, restaurant suppliers">
+    <meta name="description"
+        content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
+    <meta name="keywords"
+        content="5 Star Business Association, food suppliers, restaurants, business networking, increased profits, membership, partners, collaboration, food industry, restaurant suppliers">
     <meta name="author" content="Rose Juncaj">
     <meta name="robots" content="index, follow">
 
     <meta property="og:title" content="5 Star Business Association - A Place for Members and Partners to Benefit">
-    <meta property="og:description" content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
+    <meta property="og:description"
+        content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
     <meta property="og:image" content="assets/img/icon/favicon.png">
     <meta property="og:url" content="https://www.5starba.com">
     <meta property="og:type" content="website">
@@ -44,7 +47,7 @@
       "sameAs": [
         "https://www.facebook.com/profile.php?id=100095438299191",
         "https://www.linkedin.com/company/5-star-business-association/",
-        "https://www.instagram.com/5starbusinessassociation/"
+        "https://www.instagram.com/5star.ba/"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
@@ -114,7 +117,7 @@
                             <div class="hero-caption">
                                 <h1>5 Star Business Association</h1> <!-- Changed h2 to h1 -->
                                 <p>Bringing Suppliers and Businesses Together for Increased Profits</p>
-                                <a href="5-Star-Deals-06-03-2024.pdf" class="btn_0 hero-btn" target="_blank">Click for
+                                <a href="5-Star-Deals-06-18-2024.pdf" class="btn_0 hero-btn" target="_blank">Click for
                                     Weekly Flyer</a>
                             </div>
                         </div>
@@ -311,9 +314,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" id="frmContact" method="post"
-                            action="https://script.google.com/macros/s/AKfycbzHtHegk_89uZ4oQ2txIkGbpecm3vgnj7zghSci8JR_EVO58KH_4i1PlqPE0HSdav7XtQ/exec"
-                            enctype="multipart/form-data" onsubmit="return validateContactForm()">
+                        <form class="form-contact contact_form" id="frmContact" action="https://formspree.io/f/xyyrqlop"
+                            method="POST">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
@@ -344,17 +346,7 @@
                                 <input type="submit" name="send" class="btn-submit button button-contactForm boxed-btn"
                                     value="Send" />
                                 <!-- <button type="submit" class="button button-contactForm boxed-btn">Send</button> -->
-                                <div id="statusMessage">
-                                    <?php
-                                    if (! empty($message)) {
-                                        ?>
-                                    <p class='<?php echo $type; ?>Message'>
-                                        <?php echo $message; ?>
-                                    </p>
-                                    <?php
-                                    }
-                                    ?>
-                                </div>
+                                <p class="Message" id="my-form-status"></p>
                             </div>
                         </form>
                     </div>
@@ -393,8 +385,7 @@
                         <h1 class="modal-title fs-5" id="staticBackdropLabel">Become a member</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <form
-                        action="https://formsubmit.co/chaitanyap220@email.com"
+                    <form action="https://formspree.io/f/mayrgazn"
                         method="POST">
                         <div class="modal-body">
                             <div class="mb-3">
@@ -453,7 +444,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.instagram.com/5starbusinessassociation/"
+                                                <a href="https://www.instagram.com/5star.ba/"
                                                     target="_blank">
                                                     <ion-icon name="logo-instagram"></ion-icon>
                                                 </a>
@@ -588,44 +579,36 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <script>
-        function validateContactForm() {
-            var valid = true;
+        var form = document.getElementById("my-form");
 
-            $(".info").html("");
-            $(".input-field").css('border', '#e0dfdf 1px solid');
-            var name = $("#name").val();
-            var email = $("#email").val();
-            var subject = $("#subject").val();
-            var content = $("#content").val();
-
-            if (name == "") {
-                $("#name").html("Required.");
-                $("#name").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (email == "") {
-                $("#email").html("Required.");
-                $("#email").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (!email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
-                $("#email").html("Invalid Email Address.");
-                $("#email").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-
-            if (subject == "") {
-                $("#subject").html("Required.");
-                $("#subject").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (message == "") {
-                $("#message").html("Required.");
-                $("#message").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            return valid;
+        async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("my-form-status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    status.innerHTML = "Thanks for your submission!";
+                    form.reset()
+                } else {
+                    response.json().then(data => {
+                        if (Object.hasOwn(data, 'errors')) {
+                            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                        } else {
+                            status.innerHTML = "Oops! There was a problem submitting your form"
+                        }
+                    })
+                }
+            }).catch(error => {
+                status.innerHTML = "Oops! There was a problem submitting your form"
+            });
         }
+        form.addEventListener("submit", handleSubmit)
     </script>
 </body>
 
