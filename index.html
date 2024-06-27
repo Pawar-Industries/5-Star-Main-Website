@@ -521,25 +521,6 @@
     form.addEventListener("submit", handleSubmit)
   </script>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-		fetch('assets/images/partners/images.json')
-			.then(response => response.json())
-			.then(images => {
-				const clientLogoList = document.getElementById('clientlogo');
-				images.forEach(image => {
-					const listItem = document.createElement('li');
-					const imgElement = document.createElement('img');
-					imgElement.src = `assets/images/partners/${image}`;
-					imgElement.alt = 'Partner';
-					listItem.appendChild(imgElement);
-					clientLogoList.appendChild(listItem);
-				});
-			})
-			.catch(error => console.error('Error loading images:', error));
-	});
-  </script>
-
 </body>
 
 </html>
