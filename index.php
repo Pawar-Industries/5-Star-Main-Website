@@ -17,7 +17,7 @@
   <meta property="og:title" content="5 Star Business Association - A Place for Members and Partners to Benefit">
   <meta property="og:description"
     content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
-  <meta property="og:image" content="assets/img/icon/favicon.png">
+  <meta property="og:image" content="assets/images/logo/5star-icon.png">
   <meta property="og:url" content="https://www.5starba.com">
   <meta property="og:type" content="website">
 
@@ -25,9 +25,9 @@
   <meta name="twitter:title" content="5 Star Business Association - A Place for Members and Partners to Benefit">
   <meta name="twitter:description"
     content="5 Star Business Association connects suppliers and businesses, promoting increased profits and collaboration in the food and restaurant industry. Join us for exclusive benefits and networking opportunities.">
-  <meta name="twitter:image" content="assets/img/icon/favicon.png">
+  <meta name="twitter:image" content="assets/images/logo/5star-icon.png">
 
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/5star-icon.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
@@ -48,7 +48,7 @@
       "@type": "Organization",
       "name": "5 Star Business Association",
       "url": "https://www.5starba.com",
-      "logo": "https://www.5starba.com/assets/img/icon/favicon.png",
+      "logo": "https://www.5starba.com/assets/images/logo/5star-icon.png",
       "sameAs": [
         "https://www.facebook.com/profile.php?id=100095438299191",
         "https://www.linkedin.com/company/5-star-business-association/",
@@ -130,8 +130,8 @@
         <div class="col-lg-6">
           <div class="item item-1">
             <div class="header-text">
-              <h2>5 Star business Association</h2>
-              <p>Bringing Suppliers and Businesses Together for Increased Profits</p>
+              <h2>5 Star Business Association</h2>
+              <p>“Together We Save, Together We Succeed.”</p>
               <div class="buttons">
                 <div class="main-button">
                   <a class="membership-button" href="5-Star-Deals-06-24-2024.pdf" target="_blank">View Weekly Flyer</a>
@@ -145,25 +145,36 @@
             <span class="category">Our Proud Partners</span>
             <div class="row">
               <div class="col">
-                <a href="https://www.lagrasso.com" target="_blank"><img src="assets/images/partners/image001.png" alt="" srcset=""></a>
+                <a href="https://www.lagrasso.com" target="_blank"><img src="assets/images/partners/image001.png" alt=""
+                    srcset=""></a>
               </div>
               <div class="col">
-                <a href="https://form.jotform.com/232674131534149" target="_blank"><img src="assets/images/partners/image002.svg" alt="" srcset=""></a>
+                <a href="https://form.jotform.com/232674131534149" target="_blank"><img
+                    src="assets/images/partners/image002.svg" alt="" srcset=""></a>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <a href="https://www.jiffymix.com" target="_blank"><img src="assets/images/partners/image003.png" alt="" srcset=""></a>
+                <a href="https://www.jiffymix.com" target="_blank"><img src="assets/images/partners/image003.png" alt=""
+                    srcset=""></a>
               </div>
               <div class="col">
-                <a href="https://www.brakebush.com" target="_blank"><img src="assets/images/partners/image004.png" alt="" srcset=""></a>
-              </div>
-              <div class="col">
-                <a href="https://gdkfoods.com" target="_blank"><img src="assets/images/partners/image005.png" alt="" srcset=""></a>
+                <a href="https://www.brakebush.com" target="_blank"><img src="assets/images/partners/image004.png"
+                    alt="" srcset=""></a>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-12">
+          <div id="ourclients">
+              <div class="clients-wrap">
+                  <ul id="clientlogo" class="clearfix">
+                      <!-- Images will be loaded here by JavaScript -->
+                  </ul>
+              </div>
+          </div>
+      </div>
 
         <a href="#services">
           <div id="boottom" class="scroll-down-box">
@@ -245,7 +256,7 @@
       </div>
       <div class="row">
         <div class="col-lg-6 offset-lg-1">
-          <!-- <div class="accordion" id="accordionExample">
+          <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -256,9 +267,13 @@
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor
-                  incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut
-                  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                  <strong>5 Star Business Association</strong> is a <code>collaborative</code> entity designed to help
+                  members achieve significant cost savings and efficiencies in our procurement processes. By pooling the
+                  purchasing power of multiple businesses, we negotiates better prices, terms, and services with
+                  suppliers. This collective approach not only reduces costs but also streamlines purchasing operations,
+                  providing members with access to high-quality products and services at lower prices than they could
+                  achieve individually. Joining our association means leveraging collective strength to unlock unmatched
+                  value and ensuring your organization benefits from the best deals in the market.
                 </div>
               </div>
             </div>
@@ -272,9 +287,14 @@
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor
-                  incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut
-                  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                  Working together in our association <code>maximizes benefits</code> for all members through a
+                  streamlined, collaborative process. <code>Start by joining</code> our association to access exclusive
+                  deals and benefits. We guide you through enrollment, understand your purchasing needs, and identify
+                  opportunities for savings and efficiency. Using our collective purchasing power, we negotiate the best
+                  prices, terms, and quality from suppliers. Our team offers ongoing support, monitors market trends,
+                  and continuously improves contracts. As a member, you save costs and gain access to industry insights,
+                  best practices, and networking opportunities. Together, we drive significant savings and operational
+                  efficiencies, enhancing your procurement process.
                 </div>
               </div>
             </div>
@@ -282,36 +302,25 @@
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Why 5 Star is the best?
+                  WHY JOIN US?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  There are more than one hundred responsive HTML templates to choose from <strong>Template</strong>Mo
-                  website. You can browse by different tags or categories.
+                  Joining our association offers substantial benefits, including significant cost savings through
+                  collective purchasing power, access to high-quality suppliers, and streamlined procurement processes.
+                  Our association negotiates better prices and terms, saving you time and resources while providing
+                  expert market insights and standardized purchasing procedures. This collective approach enhances your
+                  purchasing efficiency, reduces costs, and allows even smaller businesses to enjoy the advantages
+                  typically reserved for larger enterprises.
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Do we get the best support?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  You can also search on Google with specific keywords such as
-                  <code>templatemo business templates, templatemo gallery templates, admin dashboard templatemo, 3-column templatemo, etc.</code>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <div class="about-img about-img1  ">
+          </div>
+          <!-- <div class="about-img about-img1  ">
             <img src="assets/images/gallery/about_us.svg" alt>
-        </div>
+        </div> -->
         </div>
         <div class="col-lg-5 align-self-center">
           <div class="about-us-details">
@@ -469,6 +478,7 @@
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
+  <script src="assets/js/brandslider.js"></script>
   <script src="assets/js/custom.js"></script>
 
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
